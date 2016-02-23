@@ -1,0 +1,14 @@
+{
+    "fr_0":{"id":0,"scale":100.0,"offset":400},
+    "fr_1":{"id":1,"scale":100.0,"offset":400},
+    "fr_2":{"id":2,"scale":100.0,"offset":400},
+    "fl_0":{"id":4,"scale":100.0,"offset":400},
+    "fl_1":{"id":5,"scale":100.0,"offset":400},
+    "fl_2":{"id":6,"scale":100.0,"offset":400},
+    "br_0":{"id":8,"scale":100.0,"offset":400},
+    "br_1":{"id":9,"scale":100.0,"offset":400},
+    "br_2":{"id":10,"scale":100.0,"offset":400},
+    "bl_0":{"id":12,"scale":100.0,"offset":400},
+    "bl_1":{"id":13,"scale":100.0,"offset":400},
+    "bl_2":{"id":14,"scale":100.0,"offset":400}
+}

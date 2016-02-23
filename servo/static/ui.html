@@ -1,0 +1,14 @@
+<html ng-app="ServoApp">
+    <body>
+        <div ng-controller="ServoController">
+            <p>{{value}}</p>
+            <input ng-model="value"></input>
+            <div ng-repeat="(key, value) in servos">
+                {{value}}
+                <servo-config servo="value"></servo>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="/static/main.js"></script>
+</html>

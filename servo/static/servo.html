@@ -1,0 +1,14 @@
+<h4>{{servo.name}}</h4>
+id: <input ng-model="servo.id" type="number"></input>
+<input ng-model="active" type="checkbox">active</input></br>
+<input ng-model="raw"
+       type="range"
+       min="{{ servo.min }}"
+       max="{{ servo.max }}"></input></br>
+raw: <input ng-model="raw" type="number"></input></br>
+pos: <input ng-model="pos" type="number"></input></br>
+min: <input ng-model="servo.min" type="number"></input></br>
+max: <input ng-model="servo.max" type="number"></input></br>
+scale: <input ng-model="servo.scale" type="number"></input></br>
+offset: <input ng-model="servo.offset" type="number"></input></br>
+<button ng-click="update()">update</button>
